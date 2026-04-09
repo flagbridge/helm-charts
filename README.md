@@ -15,7 +15,9 @@ helm install flagbridge flagbridge/flagbridge
 
 | Chart | Description |
 |-------|-------------|
-| `flagbridge` | Full FlagBridge deployment (API + Web + PostgreSQL + Redis) |
+| `flagbridge` | FlagBridge API + PostgreSQL deployment |
+
+The admin dashboard is deployed separately (Vercel) and is not included in this chart.
 
 ## Configuration
 
